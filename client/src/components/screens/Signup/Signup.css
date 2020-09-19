@@ -1,0 +1,100 @@
+form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-weight: 100;
+    color: #3383ce;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(79, 98, 148);
+  }
+  
+  .form {
+    background: #0e101c;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .pREgister {
+    color: #bf1650;
+  }
+  
+ .pREgister::before {
+    display: inline;
+    content: "⚠ ";
+  }
+  
+  .inputRegister {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: solid 3px #3383ce  ;
+  }
+  
+  .labelREgister {
+    line-height: 2;
+    text-align: left;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    color: #3383ce;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  button[type="submit"],
+  .inputRegister[type="submit"] {
+    background: #3383ce;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 10px;
+  }
+  
+  button[type="submit"]:hover,
+  .inputRegister[type="submit"]:hover {
+    background: #0373b9;
+  }
+  
+  button[type="submit"]:active,
+  .inputRegister[type="button"]:active,
+  .inputRegister[type="submit"]:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+  }
+  
+  .inputRegister:disabled {
+    opacity: 0.4;
+  }
+  
+  .inputRegister[type="button"]:hover {
+    transition: 0.3s all;
+  }
+  
+  button[type="submit"],
+  .inputRegister[type="button"],
+  .inputRegister[type="submit"] {
+    -webkit-appearance: none;
+  }
+  
+  
+  
+  
+  
+  hr {
+    margin-top: 30px;
+  }
+  

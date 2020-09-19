@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap');
+.logo{
+  font-family: 'Pacifico', cursive;
+  color: #26a59a;
+  margin-left: 40px;
+}
+.title{
+  font-family: 'Grenze Gotisch', cursive;
+  text-align: center;
+  color: #26a59a;
+}
+
+.leaflet-container{
+    width: 60vw;
+    height: 60vw;
+  }
+
+.ma{  width:'70%';margin-left:'50%';margin-top:'20px'}
+  .map{
+    width:'70%';margin-left:'25%';margin-top:'20px'
+  }
+.filtre{
+  margin-bottom: 20px;
+}
+  @media screen and (max-width: 600px) {
+    
+    .logo{
+      font-family: 'Pacifico', cursive;
+      color: #26a59a;
+      margin:auto
+    }
+    .update{
+      display: flex;
+      flex-direction: column;
+    }
+    .leaflet-container{
+      width: 80vw;
+      height: 100vw;
+    }
+    .horizontal {
+      display:flex;
+      flex-direction: column;
+      width: 100%;
+
+    }
+   .car{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100% !important;
+     margin: auto;
+   }
+   .carde{
+    display: flex;
+    justify-content: space-around;
+    width: 300px !important
+   }
+   .mobil{ width: 500px;}
+    }
+
+    .carde{
+      display: flex;
+      justify-content: space-around;
+      width: 30%;
+    }
+    
+    .green{
+      border : 'solide 4 px  ';
+      color:'green'
+    }
+    .red{
+      border : 'solide 4 px  ';
+      color:'red'
+    }
+
+    .icon{
+      margin-left: 60px;
+      cursor: pointer;
+    }
+    .icon:hover{
+      color: aqua;
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: grey;
+      opacity: 1; /* Firefox */
+    }
+
+    .center {
+      margin: auto;
+      width: 50%;
+      margin-top:100px;
+      padding: 10px;
+    }
+.page-footer{color: blue;}
+.container{color: blue;}
+.imag{width:250px;}
+
+
+    

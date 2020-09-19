@@ -1,0 +1,15 @@
+const express = require('express')
+const router = express.Router()
+const {requireLogin} = require('../middlwares/requireLogin')
+const {newAnnonce,allAnnonce,filtre,photo,annonce,remove,update,oneAnnonce,list}=require('../controllers/annonce')
+router.post('/new',requireLogin,newAnnonce)
+router.get('/public',allAnnonce)
+router.get ('/annonces/:slug',list)
+router.get ('/mesannonces/:slug', requireLogin,oneAnnonce)
+router.get('/mesannonces',requireLogin,annonce)
+router.get('/annonce/photo/:slug',photo)
+router.get('/annonce/filtre',filtre)
+router.delete('/mesannonces/delete/:slug',requireLogin,remove)
+router.put('/mesannonces/update/:slug',requireLogin,update)
+
+module.exports=router
